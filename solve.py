@@ -6,7 +6,7 @@ HOST = "chall.scriptsorcerers.xyz"
 PORT = 10345
 SOLVE_PUBKEY = b"5PjDJaGfSPJj4tFzMRCiuuAasKg5n8dJKXKenhuwyexx"
 
-solve = open("solve/target/deploy/solve.so", "rb").read()
+solve = open("solve.so", "rb").read()
 
 r = remote(HOST, PORT)
 
