@@ -2,7 +2,7 @@ from pwn import remote
 from solders.pubkey import Pubkey
 from solders.system_program import ID as SYSTEM_PROGRAM
 
-HOST = "chall.scriptsorcerers.xyz"
+HOST = "challs.scriptsorcerers.xyz"
 PORT = 10225
 SOLVE_PUBKEY = b"5PjDJaGfSPJj4tFzMRCiuuAasKg5n8dJKXKenhuwyexx"
 
